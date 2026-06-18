@@ -52,7 +52,7 @@ bookstore_scraper/
 ---
 
 ## 📖 For Collaborators & Learners
-The notebooks/scraper_step_by_step.ipynb walks through the entire scraping pipeline cell by cell with detailed comments — from fetching a single page to exporting a clean dataset. Run it step by step to understand exactly how each part works before using the production script.
+I've also attachted the notebooks/scraper_step_by_step.ipynb walks through of the entire scraping pipeline cell by cell with detailed comments, from fetching a single page to exporting a clean dataset. Run it step by step to understand exactly how each part works before using the production script.
 
 ---
 
