@@ -34,7 +34,8 @@ bookstore_scraper/
 │   └── scraper.py          # Main scraping pipeline
 │
 ├── notebooks/
-│   └── analysis.ipynb      # EDA and business insights
+│   ├── analysis.ipynb      # EDA and business insights
+│   └── scraper_step_by_step.ipynb      # Walks through the entire scraping pipeline cell by cell
 │
 ├── outputs/
 │   ├── books_YYYYMMDD.csv  # Cleaned dataset (CSV)
@@ -60,6 +61,10 @@ bookstore_scraper/
 
 ---
 
+## 📖 For Collaborators & Learners
+The notebooks/scraper_step_by_step.ipynb walks through the entire scraping pipeline cell by cell with detailed comments — from fetching a single page to exporting a clean dataset. Run it step by step to understand exactly how each part works before using the production script.
+
+---
 ## ▶️ How to Run
 
 ### 1. Install dependencies
