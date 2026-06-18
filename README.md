@@ -112,7 +112,7 @@ Open `notebooks/analysis.ipynb` in Jupyter and run all cells.
 ---
 
 ## 👤 Author
-  **Oluwasegun Raphael**
+  **Oluwasegun Raphael** - 
  Data Scientist & Consultant
 
 - 📧 ralpholuwashegun@gmail.com   - 🔗 [LinkedIn](http://linkedin.com/in/roe10)
