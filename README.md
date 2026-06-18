@@ -31,20 +31,28 @@ The pipeline combines **Python web scraping** for automated data extraction with
 bookstore_scraper/
 │
 ├── scripts/
-│   └── scraper.py          # Main scraping pipeline
+│   └── scraper.py                      # Main scraping pipeline
 │
 ├── notebooks/
-│   ├── analysis.ipynb      # EDA and business insights
+│   ├── analysis.ipynb                  # EDA and business insights
 │   └── scraper_step_by_step.ipynb      # Walks through the entire scraping pipeline cell by cell
 │
 ├── outputs/
-│   ├── books_YYYYMMDD.csv  # Cleaned dataset (CSV)
-│   ├── books_YYYYMMDD.json # Cleaned dataset (JSON)
-│   ├── scraper.log         # Pipeline run logs
-│   └── *.png               # Generated charts
+│   ├── books_20260618_122007.csv       # Cleaned dataset (CSV)
+│   ├── books_20260618_122007.json      # Cleaned dataset (JSON)
+│   ├── scraper.log                     # Pipeline run logs
+│   ├── avalaibility.png                
+│   ├── price-distribution.png          
+│   ├── price-vs-rating.png            
+│   ├── rating_distribution.png         
+│   └── top_categories_price.png   
 │
 └── README.md
 ```
+---
+
+## 📖 For Collaborators & Learners
+The notebooks/scraper_step_by_step.ipynb walks through the entire scraping pipeline cell by cell with detailed comments — from fetching a single page to exporting a clean dataset. Run it step by step to understand exactly how each part works before using the production script.
 
 ---
 
@@ -58,12 +66,6 @@ bookstore_scraper/
 5. Export                 → CSV + JSON with timestamp
 6. EDA                    → Pricing, ratings, category analysis
 ```
-
----
-
-## 📖 For Collaborators & Learners
-The notebooks/scraper_step_by_step.ipynb walks through the entire scraping pipeline cell by cell with detailed comments — from fetching a single page to exporting a clean dataset. Run it step by step to understand exactly how each part works before using the production script.
-
 ---
 ## ▶️ How to Run
 
